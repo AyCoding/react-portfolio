@@ -1,0 +1,25 @@
+.about {
+    padding: 200px 0;
+    /*background: orangered;*/
+    max-width: 925px;
+    width: 90%;
+    margin: auto;
+    line-height: 1.5;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.about a {
+    display: flex;
+    text-decoration: none;
+    color: inherit;
+    width: fit-content;
+    margin-top: 20px;
+    font-weight: 500;
+}
+
+.about a div {
+    padding: 14px 24px;
+    background: #333;
+    color: #FFF;
+}

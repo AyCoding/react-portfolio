@@ -1,0 +1,13 @@
+/*@import "fonts/fonts.css";*/
+@import url("https://unpkg.com/reset-css@5.0.1/reset.css");
+@import url("https://api.fontshare.com/v2/css?f[]=clash-grotesk@700,400,600,300,500&display=swap");
+
+:root {
+  /*font-family: 'Sora', sans-serif;*/
+  font-family: 'Clash Grotesk', sans-serif;
+}
+body, * {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}

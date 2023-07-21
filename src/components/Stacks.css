@@ -1,0 +1,44 @@
+.stacks {
+    padding: 300px 0;
+}
+
+.stacks h1 {
+    font-size: 50px;
+    font-weight: 700;
+    letter-spacing: +1px;
+    text-align: center;
+}
+
+.stacks h1 {
+    margin-bottom: 150px;
+}
+
+.stacks h3 {
+    font-size: 36px;
+    letter-spacing: 1px;
+    font-weight: 900;
+}
+
+.stacks h4 {
+    font-size: 24px;
+    letter-spacing: 1px;
+    font-weight: 900;
+}
+
+.stacks p {
+    line-height: 1.5;
+    max-width: 500px;
+}
+
+.stacks article {
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+}
+
+.item-stacks {
+    margin-top: 10px;
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+}

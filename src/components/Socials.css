@@ -1,0 +1,37 @@
+.socials {
+    padding: 100px 0;
+}
+
+.socials h1 {
+    font-size: 50px;
+    font-weight: 700;
+    letter-spacing: +1px;
+    text-align: center;
+}
+
+.socials h1 {
+    margin-bottom: 150px;
+}
+
+.socials h3 {
+    font-size: 36px;
+    letter-spacing: 1px;
+    font-weight: 900;
+}
+
+.socials h4 {
+    font-size: 24px;
+    letter-spacing: 1px;
+    font-weight: 900;
+}
+
+.socials p {
+    line-height: 1.5;
+    max-width: 500px;
+}
+
+.socials article {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}

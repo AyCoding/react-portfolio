@@ -20,6 +20,10 @@
     font-weight: 900;
 }
 
+.contact .mail {
+    font-weight: 500;
+}
+
 .contact h4 {
     font-size: 24px;
     letter-spacing: 1px;

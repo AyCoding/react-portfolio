@@ -5,7 +5,7 @@ function Contact() {
         <section className="contact" id="contact">
         <h1>Contact</h1>
             <article>
-                <h4>Coming Soon</h4>
+                <h3 className="mail">contact@[lorem].dev</h3>
             </article>
         </section>
     )

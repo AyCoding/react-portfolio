@@ -1,23 +1,28 @@
 import './Projects.css';
+import {data} from "@/data.js";
+import {Folder} from "lucide-react";
 
 function Projects() {
     return (
         <section className="projects" id="projects">
-            <h1>Projets</h1>
-            <article>
-                <div className="projects-img">
-                    {/*<h3>Lorem ipsum</h3>*/}
-                    <img src="/ims3.png" alt=""/>
-                </div>
-                <div className="projects-item">
-                    <div>
-                        <h4>Présentation du projet</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur. Tincidunt sit velit purus pharetra urna sollicitudin. Sit
-                            egestas ut velit vitae amet gravida.</p>
+            <h1>
+                <Folder/>
+                Projets</h1>
+
+            {data.projects.map(project => (
+                <article key={project.id}>
+                    <div className="projects-img">
+                        <img src={`${project.img}`} alt={`${project["img-alt"]}`}/>
                     </div>
-                    <h4>Date : 2023</h4>
-                </div>
-            </article>
+                    <div className="projects-item">
+                        <div>
+                            <h4>{project.title}</h4>
+                            <p>{project.description}</p>
+                        </div>
+                        <h4>Date : {project["date-project"]}</h4>
+                    </div>
+                </article>
+            ))}
         </section>
     )
 }

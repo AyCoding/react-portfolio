@@ -11,7 +11,17 @@
 }
 
 .projects h1 {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
     margin-bottom: 150px;
+    gap: 30px;
+}
+
+.projects h1 svg {
+    width: 50px;
+    height: 50px;
 }
 
 .projects h3 {
@@ -35,6 +45,7 @@
     display: flex;
     justify-content: center;
     gap: 30px;
+    margin-bottom: 50px;
 }
 
 .projects-img {

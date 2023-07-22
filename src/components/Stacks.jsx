@@ -1,9 +1,11 @@
 import './Stacks.css'
-
+import {Code} from "lucide-react";
 function Stacks() {
     return (
         <section className="stacks" id="stacks">
-            <h1>Tools & Langages</h1>
+            <h1>
+                <Code />
+                Tools & Langages</h1>
             <article>
                 <div>
                     <h4>Technologies</h4>

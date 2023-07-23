@@ -15,7 +15,7 @@
     text-align: center;
     justify-content: center;
     align-items: center;
-    margin-bottom: 150px;
+    margin-bottom: 100px;
     gap: 30px;
 }
 
@@ -45,7 +45,7 @@
     display: flex;
     justify-content: center;
     gap: 30px;
-    margin-bottom: 50px;
+    padding: 50px;
 }
 
 .projects-img {
@@ -65,4 +65,17 @@
     flex-direction: column;
     justify-content: space-between;
     /*flex*/
+
+    min-width: 500px;
+}
+
+.projects .projects-stacks {
+    font-weight: 600;
+    line-height: 2;
+    font-style: italic;
+    letter-spacing: 1px;
+}
+
+.projects-link {
+    color: orangered;
 }

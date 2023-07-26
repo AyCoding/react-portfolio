@@ -51,4 +51,5 @@
     display: flex;
     gap: 40px;
     flex-wrap: wrap;
+    font-weight: 500;
 }

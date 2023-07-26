@@ -1,50 +1,50 @@
 /* Include all font for this project */
 
-@font-face {
-    font-family: 'Sora';
-    font-style: normal;
-    font-weight: 100;
-    src: local('Sora-Thin'), url('Sora-Thin.ttf') format('truetype');
-}
+/*@font-face {*/
+/*    font-family: 'Sora';*/
+/*    font-style: normal;*/
+/*    font-weight: 100;*/
+/*    src: local('ClashGrotesk-Thin'), url('ClashGrotesk-Thin.otf') format('opentype');*/
+/*}*/
 
 @font-face {
-    font-family: 'Sora';
+    font-family: 'Clash Grotesk';
     font-style: normal;
     font-weight: 300;
-    src: local('Sora-Light'), url('Sora-Light.ttf') format('truetype');
+    src: local('ClashGrostesk-Light'), url('ClashGrotesk-Light.otf') format('opentype');
 }
 
 @font-face {
-    font-family: 'Sora';
+    font-family: 'Clash Grotesk';
     font-style: normal;
     font-weight: 400;
-    src: local('Sora-Regular'), url('Sora-Regular.ttf') format('truetype');
+    src: local('ClashGrostesk-Regular'), url('ClashGrotesk-Regular.otf') format('opentype');
 }
 
 @font-face {
-    font-family: 'Sora';
+    font-family: 'Clash Grotesk';
     font-style: normal;
     font-weight: 500;
-    src: local('Sora-Medium'), url('Sora-Medium.ttf') format('truetype');
+    src: local('ClashGrostesk-Medium'), url('ClashGrotesk-Medium.otf') format('opentype');
 }
 
 @font-face {
-    font-family: 'Sora';
+    font-family: 'Clash Grotesk';
     font-style: normal;
     font-weight: 600;
-    src: local('Sora-SemiBold'), url('Sora-SemiBold.ttf') format('truetype');
+    src: local('ClashGrotesk-SemiBold'), url('ClashGrotesk-SemiBold.otf') format('opentype');
 }
 
 @font-face {
-    font-family: 'Sora';
+    font-family: 'Clash Grotesk';
     font-style: normal;
     font-weight: 700;
-    src: local('Sora-Bold'), url('Sora-Bold.ttf') format('truetype');
+    src: local('ClashGrostesk-Bold'), url('ClashGrotesk-Bold.otf') format('opentype');
 }
 
-@font-face {
-    font-family: 'Sora';
-    font-style: normal;
-    font-weight: 800;
-    src: local('Sora-ExtraBold'), url('Sora-ExtraBold.ttf') format('truetype');
-}
+/*@font-face {*/
+/*    font-family: 'Sora';*/
+/*    font-style: normal;*/
+/*    font-weight: 800;*/
+/*    src: local('ClashGrostesk-ExtraBold'), url('ClashGrotesk-ExtraBold.otf') format('opentype');*/
+/*}*/

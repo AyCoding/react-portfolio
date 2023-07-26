@@ -1,6 +1,5 @@
-/*@import "fonts/fonts.css";*/
-@import url("https://unpkg.com/reset-css@5.0.1/reset.css");
-@import url("https://api.fontshare.com/v2/css?f[]=clash-grotesk@700,400,600,300,500&display=swap");
+@import "reset.css";
+@import "fonts/fonts.css";
 
 :root {
   /*font-family: 'Sora', sans-serif;*/

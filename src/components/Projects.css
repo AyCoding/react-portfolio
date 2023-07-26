@@ -39,6 +39,7 @@
 .projects p {
     line-height: 1.5;
     max-width: 500px;
+    font-weight: 100;
 }
 
 .projects article {

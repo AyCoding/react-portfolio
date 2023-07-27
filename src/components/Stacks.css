@@ -47,9 +47,33 @@
 }
 
 .item-stacks {
-    margin-top: 10px;
+    padding: 10px;
     display: flex;
+    justify-content: center;
     gap: 40px;
     flex-wrap: wrap;
     font-weight: 500;
+}
+
+.stacks div {
+    text-align: center;
+}
+
+@media only screen and (max-width: 1025px) {
+    .stacks svg {
+        display: none;
+    }
+    .stacks article {
+        flex-direction: column;
+        width: 90%;
+        margin: auto;
+        gap: 50px;
+        text-align: center;
+    }
+
+    .stacks .item-stacks {
+        justify-content: center;
+        text-align: center;
+        margin-top: 10px;
+    }
 }

@@ -23,3 +23,27 @@
     color: inherit;
 }
 
+@media only screen and (max-width: 1025px) {
+    .header-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        /*display: block;*/
+        padding: 100px 10px;
+        /*width: 90%;*/
+    }
+
+    .header-container .logo {
+        text-align: center;
+    }
+
+    .header-container nav {
+        flex-direction: column;
+        margin-top: 50px;
+    }
+
+    .header-container nav a {
+        padding: 10px 0;
+
+    }
+}

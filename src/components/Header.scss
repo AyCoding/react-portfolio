@@ -3,24 +3,23 @@
     background: #FAFAFA;
     padding: 100px;
     justify-content: space-between;
-}
-
-.header-container h1 {
-    font-size: 50px;
-    font-weight: 700;
-    letter-spacing: +1px;
-}
-
-.header-container nav {
-    font-weight: 500;
-
-    display: flex;
-}
-
-.header-container nav a {
-    padding: 24px 14px;
-    /*background: red;*/
-    color: inherit;
+    h1 {
+        font-size: 50px;
+        font-weight: 700;
+        letter-spacing: +1px;
+    }
+    nav {
+        font-weight: 500;
+    
+        display: flex;
+    }
+    nav  {
+        a {
+            padding: 24px 14px;
+            /*background: red;*/
+            color: inherit;
+        }
+    }
 }
 
 @media only screen and (max-width: 1025px) {

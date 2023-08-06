@@ -1,4 +1,4 @@
-import './Projects.css';
+import './Projects.scss';
 import {data} from "@/data.js";
 import {Folder} from "lucide-react";
 

@@ -1,4 +1,4 @@
-import './Stacks.css'
+import './Stacks.scss'
 import {Code} from "lucide-react";
 function Stacks() {
     return (

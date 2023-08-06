@@ -1,0 +1,36 @@
+.socials {
+    padding: 100px 0;
+    h1 {
+        font-size: 50px;
+        font-weight: 700;
+        letter-spacing: +1px;
+        text-align: center;
+    }
+    h1 {
+        margin-bottom: 150px;
+    }
+    h3 {
+        font-size: 36px;
+        letter-spacing: 1px;
+        font-weight: 900;
+    }
+    h4 {
+        font-size: 24px;
+        letter-spacing: 1px;
+        font-weight: 900;
+    }
+    p {
+        line-height: 1.5;
+        max-width: 500px;
+    }
+    article {
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+    }
+    a {
+        color: inherit;
+        font-size: 24px;
+        letter-spacing: 1px;
+    }
+}

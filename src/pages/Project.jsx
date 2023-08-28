@@ -31,7 +31,7 @@ export default function Project() {
             id: 2,
             name: "Institut de Médecine du Sport",
             slug: "institut-de-medecine-du-sport",
-            img: "ims2.jpg",
+            img: "ims3.png",
             desc: "Pendant mon stage d'un mois lors de ma première année en BTS SIO SLAM, j'ai eu l'opportunité de contribuer à la conception et à la refonte du site web de l'Institut de Médecine du Sport de Troyes."
         }
     ]
@@ -62,7 +62,7 @@ export default function Project() {
                         <p className="max-w-5xl">
                             {project.desc}
                         </p>
-                        <Link to={`/${project.slug}`}
+                        <Link to={`/project/${project.slug}`}
                            className="inline-block w-fit py-2 px-4 mt-5 bg-blue-600 text-white font-medium rounded-md hover:bg-blue-500 hover:transition">
                             See project
                         </Link>

@@ -42,8 +42,8 @@ export default function Project() {
         //         <Cards key={project.id} projet={project.name} slug={project.slug} img={project.img} lang={project.lang}/>
         //     ))}
         // </div>
-        <div className="flex flex-col gap-10 container mx-auto">
-            <h1 className="text-6xl font-black py-6">
+        <div className="flex flex-col gap-10 container mx-auto pb-[40px]">
+            <h1 className="text-5xl font-black py-6">
                 Discover my projects
             </h1>
 

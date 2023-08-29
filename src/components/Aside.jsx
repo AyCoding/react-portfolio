@@ -1,9 +1,4 @@
-// import {Home, Info, Code, BarChart2, Briefcase} from "lucide-react";
-import {Link, useParams} from "react-router-dom";
 import ButtonLink from "@/components/ButtonLink.jsx";
-
-// TODO : Changer les <a> en <ButtonLink/>
-// TODO : Ajouter le routage
 
 export default function Aside() {
     const Links = [

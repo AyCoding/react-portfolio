@@ -11,7 +11,7 @@ export default function ButtonLink({name, slug}) {
     const isActive = location.pathname === `/${slug}`;
     if (isActive) {
         return (
-            <Link to={`/${slug}`} className="flex flex-col items-center transition-all py-[0.5rem] px-[1rem] uppercase font-black bg-white text-black rounded-full text-xs">
+            <Link to={`/${slug}`} className="flex flex-col items-center transition-all py-[0.5rem] px-[1rem] uppercase font-black bg-white text-stone-800 rounded-full text-xs">
                 {/*<Home className="w-[40px] h-[40px]"/>*/}
                 <span className="text-center">{name}</span>
             </Link>
@@ -19,18 +19,10 @@ export default function ButtonLink({name, slug}) {
     } else {
         return (
             <Link to={`/${slug}`} className="flex flex-col items-center transition-all py-[0.5rem] px-[1rem] uppercase font-black bg-stone-800 text-white rounded-full text-xs">
-                {/*<Home className="w-[40px] h-[40px]"/>*/}
                 <span className="text-center">{name}</span>
             </Link>
         )
     }
-
-    // return (
-    //     <Link to={`/${slug}`} className="flex flex-col items-center gap-0.5 transition py-[0.5em] px-[1em] uppercase font-black bg-white text-black rounded-full text-xs">
-    //         {/*<Home className="w-[40px] h-[40px]"/>*/}
-    //         <span className="text-center">{name}</span>
-    //     </Link>
-    // )
 }
 
 ButtonLink.propTypes = {

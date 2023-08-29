@@ -1,7 +1,7 @@
 export default function Stacks() {
     return (
         <div className="container mx-auto">
-            <p className="text-5xl font-black py-6">My stacks : languages and other</p>
+            <p className="text-5xl font-black py-6">Skills</p>
 
             <section>
                 <div>

@@ -7,9 +7,6 @@ export default function Home() {
             <h1 className="text-5xl font-black uppercase">
                 Hello, I am <span className="perso">Aymeric DE LANGE</span>,
             </h1>
-            {/*<h2 className="text-2xl font-bold">*/}
-            {/*    Discover me more*/}
-            {/*</h2>*/}
             <p className="font-medium text-xl mb-5">I&apos;m a Front-end Developer.</p>
             <Link to={"/discover"} className="flex gap-1 font-medium hover:translate-x-1 transition-transform">
                 <ArrowRight/>

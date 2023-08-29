@@ -9,7 +9,7 @@ export default function Experience() {
                         <h2 className="text-xl font-bold w-full uppercase">
                             Institut de Médecine du Sport de Troyes
                         </h2>
-                        <p className="font-medium">Intership</p>
+                        <p className="font-medium">Internship/France</p>
                     </div>
 
                     <div className="text-end">
@@ -30,7 +30,7 @@ export default function Experience() {
                         <h2 className="text-xl font-bold w-full uppercase">
                             Webmaster Sage-femme
                         </h2>
-                        <p className="font-medium">Home</p>
+                        <p className="font-medium">Home/France</p>
                     </div>
 
                     <div className="text-end">
